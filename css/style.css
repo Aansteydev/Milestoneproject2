@@ -1,3 +1,6 @@
 body{
-    background : blue;
+    background : rgb(46, 95, 125);
+}
+canvas{
+    background-color:white ;
 }
