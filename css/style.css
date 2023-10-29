@@ -1,6 +1,27 @@
-body{
-    background : rgb(46, 95, 125);
+body {
+    background: rgb(46, 95, 125);
 }
-canvas{
-    background-color:white ;
+
+canvas {
+    background-color: white;
+}
+
+#reels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position:absolute;  /*needs improvement*/
+    top: 30%;
+    left: 35%;
+    
+}
+#reel1{
+margin-right: 25px;
+}
+#reel2{
+margin-right: 25px;
+}
+#reel3{
+margin-right: 25px;
 }
