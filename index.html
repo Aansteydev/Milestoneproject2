@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oni Neko Gamers reels!</title>
+    <title>Oni Neko Gamers Reels!</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
             <div class="col">
     
     <!--need to modify height/width-->
-    <section id="reels">
+    <section id="reels" @media (max-width: 991.98px) {>
     <canvas id="reel1" width="100" height="250" style="border:2px solid #000000;"></canvas>
     <div class="col">
     <canvas id="reel2" width="100" height="250" style="border:2px solid #000000;"></canvas>
@@ -47,5 +47,28 @@
     
     </div>
 </section>
+
+<section id="btn" @media (max-width: 991.98px) {>
+   <div class="position-absolute bottom-center">
+    <button class="stop1" type="button" onclick="myFunction">Stop!</button>
+</div>
+    <button  class="stop2"type="button" onclick="myFunction">Stop!</button>
+
+    <button class="stop3" type="button" onclick="myFunction">Stop!</button>
+
+    <button class="start" type="button" onclick="myFunction">Start!</button>
+</section>
+<div id="hud">
+    <div class="coinTotal">
+
+    </div>
+    <div class="credit">
+
+    </div>
+    <div class="payout">
+
+    </div>
+</div>
+
 </body>
 </html>
