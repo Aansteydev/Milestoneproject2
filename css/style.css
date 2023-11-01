@@ -16,55 +16,36 @@ canvas {
     left: 35%;
     
 }
-#reel1{
-margin-right: 25px;
-}
-#reel2{
-margin-right: 25px;
-}
-#reel3{
-margin-right: 25px;
-}
 
-.stop1 {
+#buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: cente;
+}
+.btnstop1 {
     color: black;
     background-color: silver;
     padding: 10px;
-    position: absolute;
     border-radius: 50%;
-    top: 80%;
-    left: 37%;
 }
 
-.stop2 {
+.btnstop2 {
     color: black;
     background-color: silver;
     padding: 10px;
-    position: absolute;
-    border-radius:50%;
-    top: 80%; 
-    left: 47%;
+    border-radius: 50%;
 }
 
-.stop3 {
+.btnstop3 {
     color: black;
     background-color: silver;
     padding: 10px;
-    position: absolute;
     border-radius: 50%;
-    top: 80%;
-    left: 57%;
 }
-
-.start {
-    color: black;
-    background-color: yellow;
-    height: 110px;
-    width:110px;
-    padding: 10px;
-    position: absolute;
-    top: 73%;
-    left: 20%;
-    border-radius: 50%;
+.btnstart {
+    color:black;
+    background-color: silver;
+    padding: 5px;
+   
 }
 

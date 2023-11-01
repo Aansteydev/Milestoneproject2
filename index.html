@@ -5,70 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oni Neko Gamers Reels!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
 </head>
 <body>
-    
-<div class="container-fluid justify-content-center" col-sm-4-md-8-xl-12>
-        <div class="row">
-            <div class="col">
-    
-    <!--need to modify height/width-->
-    <section id="reels" @media (max-width: 991.98px) {>
-    <canvas id="reel1" width="100" height="250" style="border:2px solid #000000;"></canvas>
-    <div class="col">
-    <canvas id="reel2" width="100" height="250" style="border:2px solid #000000;"></canvas>
+<div class="row justfiy-content-center mb-3">    
+<div class="col col-auto">
+    <canvas id="reels" width="440" height="240"></canvas>
     </div>
-    <div>
-    <canvas id="reel3" width="100" height="250" style="border:2px solid #000000;"></canvas>
-    </section>
-    </div>
-    </div>
-    </div>
-</div>    
+    </div>  
+<div class="container" lg-4>
+<div class="row">
+<div id="buttons">
+    <div class="btnstop1" onclick="myFunction">Stop!</div>
+        <div class="btnstop2" onclick="myFunction">Stop!</div>
+            <div class="btnstop3"onclick="myFunction">Stop!</div>
+                <div class="btnstart" onclick="myFunction">Start!</div>
 </div>
-<section id="icons">
-    <div class="icon1">
-        
-    </div>
-    <div class="icon2">
-    
-    </div>
-    <div class="icon3">
-    
-    </div>
-    <div class="icon4">
-    
-    </div>
-    <div class="icon5">
-    
-    </div>
-    <div class="icon6">
-    
-    </div>
-</section>
-
-<section id="btn" @media (max-width: 991.98px) {>
-   <div class="position-absolute bottom-center">
-    <button class="stop1" type="button" onclick="myFunction">Stop!</button>
-</div>
-    <button  class="stop2"type="button" onclick="myFunction">Stop!</button>
-
-    <button class="stop3" type="button" onclick="myFunction">Stop!</button>
-
-    <button class="start" type="button" onclick="myFunction">Start!</button>
-</section>
-<div id="hud">
-    <div class="coinTotal">
-
-    </div>
-    <div class="credit">
-
-    </div>
-    <div class="payout">
-
-    </div>
-</div>
-
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
 </body>
 </html>
