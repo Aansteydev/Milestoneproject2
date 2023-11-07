@@ -1,7 +1,13 @@
 body {
     background: rgb(46, 95, 125);
 }
-
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 5px;
+    padding: 5px;
+}
 canvas {
     background-color: white;
 }
