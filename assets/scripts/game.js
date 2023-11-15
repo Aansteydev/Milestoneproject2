@@ -17,4 +17,17 @@ img.addEventListener(load, function () {
 });
 
 document.querySelector('#btnstart').addEventListener('click,spin');
+function loadAssets(){
+    
+}
+function runGame(){
 
+}
+
+function stopGame(){
+
+}
+
+function results(){
+
+}
